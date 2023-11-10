@@ -6,7 +6,7 @@ import useLottie from '../../hooks/useLottie'
 import { rockLottie, arrowDownLottie } from './constants'
 import Fade from 'react-reveal/Fade'
 
-const hobbys = ['聊聊技术laf。', '吹吹水。', '打打游戏。', '唱唱歌。']
+const hobbys = ['聊聊技术lafa。', '吹吹水。', '打打游戏。', '唱唱歌。']
 const Home: FC = () => {
   const el = useTypes(hobbys, { loop: true })
   const rockLottieRef = useLottie(rockLottie)
