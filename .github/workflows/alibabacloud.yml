@@ -14,16 +14,12 @@ jobs:
       - name: Checkout
         # 使用action库  actions/checkout获取源码
         uses: actions/checkout@master
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 16
       # 安装Node13
-      - name: use Node.js 16
+      - name: use Node.js 16.2.0
         # 使用action库  actions/setup-node安装node
         uses: actions/setup-node@v1
         with:
-          node-version: 16
+          node-version: 16.2.0
       # 安装依赖
       - name: npm install
         run: npm install
