@@ -13,6 +13,11 @@ const Button: FC<Props> = props => {
     background: bg,
     borderColor: bg,
   })
+
+  setButtonStyle({
+    background: bg,
+    borderColor: bg,
+  })
   return (
     <button className={classNames(className, styles.button)} style={buttonStyle}>
       <span>{children}</span>
