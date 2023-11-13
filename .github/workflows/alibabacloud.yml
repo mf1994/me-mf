@@ -26,7 +26,7 @@ jobs:
         run: npm run build
       - name: 打印
         run: |
-          echo "Server SSH Key: ${{SSH_PRIVATE_KEY}}"
+          echo "Server SSH Key: ${{secrets.SSH_PRIVATE_KEY}}"
       # 部署到阿里云
       - name: 部署到阿里云
         uses: easingthemes/ssh-deploy@v2.1.1
