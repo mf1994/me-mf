@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 
 const Contact: FC = () => {
-  return <div>12345678910</div>
+  return <div>1234567891011</div>
 }
 
 export default Contact
