@@ -39,7 +39,7 @@ jobs:
           # 用户
           REMOTE_USER: "root"
           # 目标地址 你在服务器上部署代码的地方
-          TARGET: "/root/project/me-mf/me-f"
+          TARGET: "/root/project/me-mf"
       - name: set ssh key # 临时设置 ssh key
         run: |
           mkdir -p ~/.ssh/
