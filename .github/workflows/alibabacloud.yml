@@ -24,6 +24,9 @@ jobs:
       # 打包
       - name: 打包
         run: npm run build
+      - name: 打印
+        run: |
+          echo "Server SSH Key: ${SSH_PRIVATE_KEY}"
       # 部署到阿里云
       - name: 部署到阿里云
         uses: easingthemes/ssh-deploy@v2.1.1
@@ -40,5 +43,3 @@ jobs:
           REMOTE_USER: "root"
           # 目标地址 你在服务器上部署代码的地方
           TARGET: "/root/project/me-mf"
-        run: |
-          echo "Server SSH Key: ${SSH_PRIVATE_KEY}"
