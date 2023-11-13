@@ -27,7 +27,6 @@ jobs:
       # 部署到阿里云
       - name: 部署到阿里云
         uses: easingthemes/ssh-deploy@v2.1.1
-        run: echo ${{ secrets.SERVER_SSH_KEY }}
         env:
           # 私钥
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
@@ -41,3 +40,5 @@ jobs:
           REMOTE_USER: "root"
           # 目标地址 你在服务器上部署代码的地方
           TARGET: "/root/project/me-mf"
+        run: |
+          echo "Server SSH Key: ${SSH_PRIVATE_KEY}"
