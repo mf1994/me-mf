@@ -27,11 +27,11 @@ const About: FC = () => {
           <span className={styles.justForFun}>Just for fun ~</span>
         </Paragraph>
       </Fade>
-      <Fade bottom>
+      {/* <Fade bottom>
         <div className={styles.buttonwrapper}>
           <Button className={styles.pulse}>我的简历</Button>
         </div>
-      </Fade>
+      </Fade> */}
     </div>
   )
 }
