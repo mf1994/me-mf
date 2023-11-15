@@ -10,7 +10,7 @@ import Button from '../../components/Button'
 
 const About: FC = () => {
   return (
-    <div className={styles.about}>
+    <div id="about" className={styles.about}>
       <Title tag="h2">关于</Title>
       <Title tag="h3">
         哈喽，我是海怪 👻

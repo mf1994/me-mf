@@ -12,7 +12,7 @@ const Home: FC = () => {
   const rockLottieRef = useLottie(rockLottie)
   const arrowDownLottieRef = useLottie(arrowDownLottie)
   return (
-    <div className={styles.home}>
+    <div id="home" className={styles.home}>
       <Row className={styles.content}>
         <Col span={24} md={15} className={styles.intro}>
           <p>我是海怪</p>
