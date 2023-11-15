@@ -11,12 +11,12 @@ import Button from '../../components/Button'
 const About: FC = () => {
   return (
     <div id="about" className={styles.about}>
-      <Title tag="h2">关于</Title>
-      <Title tag="h3">
+      <Title tag="h2">专业能力</Title>
+      {/* <Title tag="h3">
         哈喽，我是海怪 👻
         <br />
         聊聊我自己
-      </Title>
+      </Title> */}
       <Profile></Profile>
       <Life></Life>
       <Fade bottom>

@@ -4,9 +4,10 @@ import { Col, Row } from 'antd'
 import useTypes from '../../hooks/useTypes'
 import useLottie from '../../hooks/useLottie'
 import { rockLottie, arrowDownLottie } from './constants'
+import classNames from 'classnames'
 import Fade from 'react-reveal/Fade'
 
-const hobbys = ['聊聊技术lafaee。', '吹吹水。', '打打游戏。', '唱唱歌。']
+const hobbys = ['企业微信应用', '微信公众号', '微信小程序']
 const Home: FC = () => {
   const el = useTypes(hobbys, { loop: true })
   const rockLottieRef = useLottie(rockLottie)
@@ -22,19 +23,21 @@ const Home: FC = () => {
     <div id="home" className={styles.home}>
       <Row className={styles.content}>
         <Col span={24} md={15} className={styles.intro}>
-          <p>我是海怪</p>
+          <p>我是梅凡</p>
           <p>
-            目前在<span className={styles.zijie}>字节</span>
-            <span className={styles.tiaodong}>跳动</span>，主用
-            <span className={styles.react}>React</span>。
+            目前就职于<span className={styles.zijie}>中建新疆建工</span>
+            <span className={styles.tiaodong}>华南公司</span>
+            {/* 在
+            <span>系统工程化、业务性能优化及提高可用性</span>
+            等方面有较丰富的经验。 */}
           </p>
-          <p>喜欢设计 💅，</p>
+          {/* <p>喜欢设计 💅，</p> */}
           {/* <p>
             拒绝<span className={styles.del}>996</span>和<span className={styles.del}>内卷</span>
           </p> */}
           <p>
-            偶尔
-            <span className={styles.sometime} ref={el}></span>
+            熟练掌握
+            <span className={classNames(styles.sometime, styles.react)} ref={el}></span>开发
           </p>
         </Col>
         <Col span={24} md={9} className={styles.rockWrapper}>

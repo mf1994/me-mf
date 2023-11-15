@@ -45,7 +45,7 @@ const Profile: FC = () => {
           <Paragraph>🐸 冲！</Paragraph>
         </Fade>
       </Col>
-      <Col span={14} order={1} lg={{ span: 7, order: 2 }} className={styles.avatar}>
+      {/* <Col span={14} order={1} lg={{ span: 7, order: 2 }} className={styles.avatar}>
         <Fade top>
           <img src={avatar} alt="" />
         </Fade>
@@ -53,7 +53,7 @@ const Profile: FC = () => {
       <Col span={24} order={2} lg={{ span: 5, order: 3 }} className={styles.name}>
         <p>海</p>
         <p>怪</p>
-      </Col>
+      </Col> */}
     </Row>
   )
 }
