@@ -11,6 +11,13 @@ const Home: FC = () => {
   const el = useTypes(hobbys, { loop: true })
   const rockLottieRef = useLottie(rockLottie)
   const arrowDownLottieRef = useLottie(arrowDownLottie)
+
+  const next = () => {
+    const $about = document.querySelector('#about')
+    if ($about) {
+      $about.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
   return (
     <div id="home" className={styles.home}>
       <Row className={styles.content}>
@@ -40,7 +47,7 @@ const Home: FC = () => {
         <Col span={24} className={styles.next}>
           <Fade top>
             <div className={styles.handDown}>
-              <div ref={arrowDownLottieRef}></div>
+              <div ref={arrowDownLottieRef} onClick={next}></div>
             </div>
           </Fade>
         </Col>

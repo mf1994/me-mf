@@ -137,4 +137,53 @@
             }
         }
     }
+    @media screen and (max-width: 992px) {
+        .content {
+          .intro {
+            padding-top: 4vh;
+    
+            p {
+              font-size: 2em;
+            }
+    
+            .del {
+              &::before,
+              &::after {
+                top: 50%;
+              }
+            }
+          }
+    
+          .ballWrapper {
+            padding: 0;
+    
+            .ball {
+              height: 200px;
+              width: 200px;
+              font-size: 5em;
+            }
+          }
+        }
+      }
+    
+      @media screen and (max-width: 768px) {
+        .content {
+          .intro {
+            padding-left: 0;
+            padding-top: 10px;
+    
+            p {
+              line-height: 1.4em;
+              font-size: 1.7em;
+            }
+    
+            .del {
+              &::before,
+              &::after {
+                top: 50%;
+              }
+            }
+          }
+        }
+      }
 }
