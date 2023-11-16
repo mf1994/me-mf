@@ -1,15 +1,16 @@
 import React, { FC } from 'react'
 import styles from './style.module.scss'
 import Section from '../../components/Section'
-import Title from '../../components/Title'
+// import Title from '../../components/Title'
 import Masonry from 'react-masonry-css'
 import { projects } from './constant'
 import Item from './Item'
+import Contact from '../Contact'
 
 const Project: FC = () => {
   return (
     <Section id="project" className={styles.project}>
-      <Title tag="h2">个人项目</Title>
+      {/* <Title tag="h2">个人项目</Title> */}
       {/* <Title tag="h3">超多好玩、沙雕的项目</Title> */}
       <Masonry
         breakpointCols={{ default: 3, 992: 2, 786: 1 }}
@@ -23,6 +24,7 @@ const Project: FC = () => {
           😋 更多好玩，有趣的项目（和 <i>文章</i> ）正在路上 🕑
         </Title> */}
       </Masonry>
+      <Contact></Contact>
     </Section>
   )
 }

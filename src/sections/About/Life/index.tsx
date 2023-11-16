@@ -2,12 +2,12 @@ import React, { FC } from 'react'
 import Timeline from '../../../components/Timeline'
 import TimelineHeader from '../../../components/Timeline/Header'
 import TimelineItem from '../../../components/Timeline/Item'
-import styles from './style.module.scss'
+// import styles from './style.module.scss'
 // import useTypes from '../../../hooks/useTypes'
 
 // import uci from '../../../assets/icons/uci.jpg'
-import neu from '../../../assets/icons/neu.png'
-import dji from '../../../assets/icons/dji.png'
+// import neu from '../../../assets/icons/neu.png'
+// import dji from '../../../assets/icons/dji.png'
 // import tencent from '../../../assets/icons/tencent.png'
 // import bytedance from '../../../assets/icons/bytedance.png'
 import HighLight from '../../../components/HighLight'
@@ -28,6 +28,7 @@ const Life: FC = () => {
           <span>
             <HighLight>前端开发工程师</HighLight>
           </span>,
+          '公司业务系统开发',
         ]}
       />
       <TimelineHeader>2018</TimelineHeader>
@@ -40,12 +41,13 @@ const Life: FC = () => {
           <span>
             <HighLight>前端开发工程师</HighLight>
           </span>,
+          '公司核心业务微信公众号、小程序、管理系统开发',
         ]}
-        node={
-          <span>
-            <img src={neu} width={46} alt="" />
-          </span>
-        }
+        // node={
+        //   <span>
+        //     <img src={neu} width={46} alt="" />
+        //   </span>
+        // }
         // content={[
         //   '沈阳，辽宁',
         //   // eslint-disable-next-line react/jsx-key
@@ -73,19 +75,20 @@ const Life: FC = () => {
       /> */}
       <TimelineHeader>2020</TimelineHeader>
       <TimelineItem
-        node={
-          <span className={styles.customNode}>
-            <img width={30} src={dji} alt="dji" />
-          </span>
-        }
+        // node={
+        //   <span className={styles.customNode}>
+        //     <img width={30} src={dji} alt="dji" />
+        //   </span>
+        // }
         direction="left"
         time="5月"
-        header={[
-          '🚗 深圳市小安时代互联网金融服务有限公司',
+        header={[' 深圳市小安时代互联网金融服务有限公司🎉']}
+        content={[
           // eslint-disable-next-line react/jsx-key
           <span>
             <HighLight>前端开发工程师</HighLight>
           </span>,
+          '公司核心业务系统开发',
         ]}
       />
       <TimelineHeader>2021</TimelineHeader>
@@ -97,8 +100,9 @@ const Life: FC = () => {
           // '美国，加州，尔湾',
           // eslint-disable-next-line react/jsx-key
           <span>
-            <HighLight>前端开发工程师</HighLight>
+            <HighLight>信息化管理岗</HighLight>
           </span>,
+          '对接厂商单位和公司业务需求部门，进行需求文档编制、技术方案评审、原型图修订、研发进度管理、功能测试以及上线运营推广',
         ]}
       />
       <TimelineItem direction="left" header={['......']} />

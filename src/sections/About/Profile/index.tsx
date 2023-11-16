@@ -27,7 +27,9 @@ const Profile: FC = () => {
               CapCut App
             </a>{' '}
             前端开发。 */}
-            8年<HighLight>前端开发经验</HighLight>
+            8年工作经验，其中<HighLight>5年前端开发经验</HighLight>，
+            <HighLight>3年中建系统信息化项目实施推广运营经验</HighLight>
+            ，成功实施推广工期管理系统、每日情况报告系统，并内嵌至企业微信工作台
             ，在系统工程化、业务性能优化及提高可用性等方面有较丰富的经验；
           </Paragraph>
           {/* <Paragraph>
@@ -36,7 +38,7 @@ const Profile: FC = () => {
             LeetCode、掉了不少头发、去过不少地方，感叹过世界之大。
           </Paragraph> */}
         </Fade>
-        <Fade bottom>
+        <Fade>
           <Paragraph>
             {/* 经常天马行空想一些 idea，然后实现出来 🌟。偶尔累了就弹一下吉他 🎸，或者畅游{' '}
             <HighLight>守望先锋</HighLight> 的鱼塘 🎮。
@@ -44,6 +46,16 @@ const Profile: FC = () => {
             Vim、五笔打字、魔方...... */}
             技术栈：熟练掌握 <HighLight>JS、H5、CSS3、Vue+Vuex+Vue-router、React、Vue3</HighLight>
             等前端技术栈
+          </Paragraph>
+          {/* <Paragraph>🐸 冲！</Paragraph> */}
+        </Fade>
+        <Fade bottom>
+          <Paragraph>
+            {/* 经常天马行空想一些 idea，然后实现出来 🌟。偶尔累了就弹一下吉他 🎸，或者畅游{' '}
+            <HighLight>守望先锋</HighLight> 的鱼塘 🎮。
+            喜欢好看，酷炫的东西，可能这就是喜欢前端的原因吧 @_@。 喜欢折腾东西，比如
+            Vim、五笔打字、魔方...... */}
+            熟悉<HighLight>微信公众号应用、企业微信应用、微信小程序</HighLight>开发
           </Paragraph>
           {/* <Paragraph>🐸 冲！</Paragraph> */}
         </Fade>
