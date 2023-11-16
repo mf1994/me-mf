@@ -10,7 +10,7 @@ const Project: FC = () => {
   return (
     <Section id="project" className={styles.project}>
       <Title tag="h2">个人项目</Title>
-      <Title tag="h3">超多好玩、沙雕的项目</Title>
+      {/* <Title tag="h3">超多好玩、沙雕的项目</Title> */}
       <Masonry
         breakpointCols={{ default: 3, 992: 2, 786: 1 }}
         className={styles.projectList}
@@ -19,9 +19,9 @@ const Project: FC = () => {
         {projects.map(project => (
           <Item {...project} key={project.logo}></Item>
         ))}
-        <Title className={styles.footerTitle} tag="h3">
+        {/* <Title className={styles.footerTitle} tag="h3">
           😋 更多好玩，有趣的项目（和 <i>文章</i> ）正在路上 🕑
-        </Title>
+        </Title> */}
       </Masonry>
     </Section>
   )

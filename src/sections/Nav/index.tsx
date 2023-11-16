@@ -24,7 +24,7 @@ const Nav: FC = () => {
   return (
     <nav className={styles.nav}>
       <div className={styles.title}>
-        <span>Me</span>
+        <span>Mei</span>
       </div>
 
       {/* 横版 nav */}
