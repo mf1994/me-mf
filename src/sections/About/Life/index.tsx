@@ -21,12 +21,26 @@ const Life: FC = () => {
       <TimelineHeader>2015</TimelineHeader>
       <TimelineItem direction="right" time="7月" header={['🎓 本科毕业 🎉']}></TimelineItem>
       <TimelineHeader>...</TimelineHeader>
-      <TimelineItem header={['杭州盈贝资产管理有限公司🎉', '前端开发工程师']} />
+      <TimelineItem
+        header={['杭州盈贝资产管理有限公司🎉']}
+        content={[
+          // eslint-disable-next-line react/jsx-key
+          <span>
+            <HighLight>前端开发工程师</HighLight>
+          </span>,
+        ]}
+      />
       <TimelineHeader>2018</TimelineHeader>
       <TimelineItem
         direction="right"
         time="4月"
-        header={['深圳超桌网络科技有限公司 🎉', '前端开发工程师']}
+        header={['深圳超桌网络科技有限公司 🎉']}
+        content={[
+          // eslint-disable-next-line react/jsx-key
+          <span>
+            <HighLight>前端开发工程师</HighLight>
+          </span>,
+        ]}
         node={
           <span>
             <img src={neu} width={46} alt="" />
