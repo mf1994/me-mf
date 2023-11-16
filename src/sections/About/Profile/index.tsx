@@ -6,7 +6,7 @@ import HighLight from '../../../components/HighLight'
 import styles from './style.module.scss'
 import { toysLottie } from './constants'
 import useLottie from '../../../hooks/useLottie'
-import avatar from '../../../assets/images/avatar.webp'
+// import avatar from '../../../assets/images/avatar.webp'
 
 const Profile: FC = () => {
   const toysLottieRef = useLottie(toysLottie)
