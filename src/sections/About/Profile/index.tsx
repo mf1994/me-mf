@@ -15,7 +15,7 @@ const Profile: FC = () => {
       <Col span={24} order={3} lg={{ span: 11, order: 1 }} className={styles.detail}>
         <Fade bottom>
           <Paragraph>
-            一个<HighLight>前端工程师</HighLight>，广东佛山 👴。 之前在{' '}
+            {/* 一个<HighLight>前端工程师</HighLight>，广东佛山 👴。 之前在{' '}
             <HighLight>腾讯 @ 深圳</HighLight>做在线教育的前端，现在在{' '}
             <HighLight>字节跳动 @ 深圳</HighLight>做{' '}
             <a
@@ -26,24 +26,28 @@ const Profile: FC = () => {
             >
               CapCut App
             </a>{' '}
-            前端开发。
+            前端开发。 */}
+            8年<HighLight>前端开发经验</HighLight>
+            ，在系统工程化、业务性能优化及提高可用性等方面有较丰富的经验；
           </Paragraph>
-          <Paragraph>
+          {/* <Paragraph>
             高考之后，飞去 <HighLight>东北大学 @ 沈阳</HighLight> 上了 4 年学，毕业之后去{' '}
             <HighLight>加州大学 @ 尔湾分校</HighLight> 读了 2 年研究生。 刷了不少
             LeetCode、掉了不少头发、去过不少地方，感叹过世界之大。
-          </Paragraph>
+          </Paragraph> */}
         </Fade>
-        <div className={styles.toys} ref={toysLottieRef}></div>
         <Fade bottom>
           <Paragraph>
-            经常天马行空想一些 idea，然后实现出来 🌟。偶尔累了就弹一下吉他 🎸，或者畅游{' '}
+            {/* 经常天马行空想一些 idea，然后实现出来 🌟。偶尔累了就弹一下吉他 🎸，或者畅游{' '}
             <HighLight>守望先锋</HighLight> 的鱼塘 🎮。
             喜欢好看，酷炫的东西，可能这就是喜欢前端的原因吧 @_@。 喜欢折腾东西，比如
-            Vim、五笔打字、魔方......
+            Vim、五笔打字、魔方...... */}
+            技术栈：熟练掌握 <HighLight>JS、H5、CSS3、Vue+Vuex+Vue-router、React、Vue3</HighLight>
+            等前端技术栈
           </Paragraph>
-          <Paragraph>🐸 冲！</Paragraph>
+          {/* <Paragraph>🐸 冲！</Paragraph> */}
         </Fade>
+        <div className={styles.toys} ref={toysLottieRef}></div>
       </Col>
       {/* <Col span={14} order={1} lg={{ span: 7, order: 2 }} className={styles.avatar}>
         <Fade top>

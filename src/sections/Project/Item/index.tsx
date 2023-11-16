@@ -20,20 +20,20 @@ export type ProjectItem = {
 }
 
 const ProjectItem: FC<ProjectItem> = props => {
-  const { logo, title, badges, content, description, links, techUsed } = props
+  const { title, content, description, links, techUsed } = props
   return (
     <div className={styles.item}>
       <Fade>
         <div className={styles.container}>
-          {logo && <img src={logo} className={styles.logo}></img>}
+          {/* {logo && <img src={logo} className={styles.logo}></img>} */}
           {title && <h4 className={styles.title}>{title}</h4>}
-          {badges && (
+          {/* {badges && (
             <div className={styles.badges}>
               {badges.map(b => (
                 <img key={b} src={b} />
               ))}
             </div>
-          )}
+          )} */}
           {content && <div className={styles.content}>{content}</div>}
           {description && <div className={styles.description}>{description}</div>}
           {links && (

@@ -38,11 +38,11 @@ const Nav: FC = () => {
             {nav.text}
           </li>
         ))}
-        <li>
+        {/* <li>
           <a href="https://github.yanhaixiang.com/resume" target="_blank" rel="noreferrer">
             简历
           </a>
-        </li>
+        </li> */}
 
         {/* 缩小版菜单栏 */}
         <li className={styles.navBtn} onClick={() => setVerticalVisible(!verticalVisible)}>

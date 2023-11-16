@@ -7,7 +7,7 @@ import { rockLottie, arrowDownLottie } from './constants'
 import classNames from 'classnames'
 import Fade from 'react-reveal/Fade'
 
-const hobbys = ['企业微信应用', '微信公众号', '微信小程序']
+const hobbys = ['企业微信应用开发', '微信公众号开发', '微信小程序开发']
 const Home: FC = () => {
   const el = useTypes(hobbys, { loop: true })
   const rockLottieRef = useLottie(rockLottie)
@@ -37,7 +37,7 @@ const Home: FC = () => {
           </p> */}
           <p>
             熟练掌握
-            <span className={classNames(styles.sometime, styles.react)} ref={el}></span>开发
+            <span className={classNames(styles.sometime, styles.react)} ref={el}></span>
           </p>
         </Col>
         <Col span={24} md={9} className={styles.rockWrapper}>
